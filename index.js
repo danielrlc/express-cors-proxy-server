@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get('/', (req, res) => {
   request(
-    { url: 'https://joke-api-strict-cors.appspot.com/jokes/random' },
+    { url: 'https://lettera.api.ksfmedia.fi/v3/article/a6282b95-e620-4040-87d1-731fed85a7d6' },
     (error, response, body) => {
       if (error || response.statusCode !== 200) {
         return res.status(500).json({ type: 'error', message: err.message });
