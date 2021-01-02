@@ -45,3 +45,8 @@ fetch(
 ```
 
 Then change the `url` in `index.js` (of this app) to the url of the API endpoint you want to call.
+
+## Sources / Further information
+
+- [3 Ways to Fix the CORS Error — and How the Access-Control-Allow-Origin Header Works | by David Katz | Medium](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9)
+- [Fullstack part3 | Deploying app to internet](https://fullstackopen.com/en/part3/deploying_app_to_internet#same-origin-policy-and-cors)
