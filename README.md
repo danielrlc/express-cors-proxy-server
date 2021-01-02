@@ -22,7 +22,7 @@ npm start
 
 ## How to make API calls
 
-Here is how you can now call this Express app:
+Call this Express app from your own app. Here's an example:
 
 ```javascript
 fetch(
